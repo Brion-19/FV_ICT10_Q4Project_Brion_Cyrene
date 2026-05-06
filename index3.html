@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+ <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <title>Gallery</title>
+      <py-config>
+          packages = ['numpy', 'matplotlib']
+      </py-config>
+</head>
+<style>
+      body {
+           font-family: Arial;
+           margin: 0;
+           background-image: url('https://i.pinimg.com/736x/94/b2/cd/94b2cd7f60a477952ea4c3f0c26a919d.jpg');
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center;
+       }
+       h1 {
+           text-align: center;
+           color: #343b6f;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: 45px
+       }
+       p {
+           color: #636366;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       .gallery {
+           display: grid;
+           grid-template-columns: repeat(4, 1fr);
+           gap: 20px;
+           padding: 20px;
+       }
+       .card {
+           background: white;
+           border-radius: 10px;
+           overflow: hidden;
+           box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+       }
+       .card img {
+           width: 100%;
+           height: 200px;
+           object-fit: cover;
+       }
+       .card-content {
+           padding: 10px;
+       }
+       .title {
+           font-weight: bold;
+       }
+       .desc {
+           font-size: 14px;
+           color: gray;
+       }
+   </style>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4 rounded">
+     <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">10 - Emerald</a>
+        <div>
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="index2.html">Attendance Tracker</a></li>
+              <li class="nav-item"><a class="nav-link" href="index3.html">Gallery</a></li>
+           </ul>
+        </div>
+     </div>
+  </nav>
+<center>
+<h1>Highlights of Our Journey</h1>
+<p>Recap of all the memorable moments!</p>
+</center>
+
+
+<div class="gallery">
+
+
+   <div class="card">
+       <img src="presidents_day.jpg">
+       <div class="card-content">
+           <div class="title">Presidents Day</div>
+           <div class="desc">The graduation of the cadets!</div>
+       </div>
+   </div>
+
+   <div class="card">
+       <img src="marching_band.jpg">
+       <div class="card-content">
+           <div class="title">Marching Band</div>
+           <div class="desc">Where students get to show off their talents!</div>
+       </div>
+   </div>
+
+   <div class="card">
+       <img src="peace_congress.jpg">
+       <div class="card-content">
+           <div class="title">Peace Congress</div>
+           <div class="desc">A day dedicated for students to present their peace projects!</div>
+       </div>
+   </div>
+
+   <div class="card">
+       <img src="intrams.jpg">
+       <div class="card-content">
+           <div class="title">Intramurals</div>
+           <div class="desc">A day dedicated to sports and games!</div>
+       </div>
+   </div>
+
+   <div class="card">
+       <img src="jointcamp_out.JPG">
+       <div class="card-content">
+           <div class="title">Joint Camp Out</div>
+           <div class="desc">Where G10 students get to test their leadership skills!</div>
+       </div>
+   </div>
+
+       <div class="card">
+       <img src="mini_mart.jpg">
+       <div class="card-content">
+           <div class="title">Mini Mart</div>
+           <div class="desc">A market filled with student products!</div>
+       </div>
+   </div>
+
+   <div class="card">
+       <img src="river_cleanup.jpg">
+       <div class="card-content">
+           <div class="title">River Clean Up</div>
+           <div class="desc">Voluntary work for CAT!</div>
+       </div>
+   </div>
+
+   <div class="card">
+       <img src="poetry_festival.jpg">
+       <div class="card-content">
+           <div class="title">Poetry Festivals</div>
+           <div class="desc">A day dedicated to poetry!</div>
+       </div>
+   </div>
+</center>
+
+
+</body>
+</html>
+
+
+
